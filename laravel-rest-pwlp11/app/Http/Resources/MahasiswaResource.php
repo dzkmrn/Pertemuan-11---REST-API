@@ -18,6 +18,8 @@ class MahasiswaResource extends JsonResource
             'NIM' => $this -> NIM,
             'Nama' => $this -> Nama,
             'Jurusan' => $this -> Jurusan,
+            'Email' => $this -> Email,
+            'No_Handphone' => $this -> No_Handphone,
         ];
     }
 }
